@@ -25,7 +25,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-gray-300">
+              <a href="https://github.com/apocas/restai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300">
                 <span className="sr-only">GitHub</span>
                 <Github className="h-6 w-6" />
               </a>

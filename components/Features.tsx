@@ -10,7 +10,8 @@ import {
   Zap, 
   Globe,
   Settings,
-  BarChart3
+  BarChart3,
+  Github
 } from 'lucide-react';
 
 export default function Features() {
@@ -107,11 +108,22 @@ export default function Features() {
 
         <div className="mt-16 bg-gray-50 rounded-2xl p-8">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">OpenAI API Compatible</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Open Source & OpenAI Compatible</h3>
             <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
-              Seamlessly migrate from OpenAI or integrate RESTai into your existing applications. 
+              RESTai is open source and available on GitHub. Seamlessly migrate from OpenAI or integrate RESTai into your existing applications. 
               Our API maintains full compatibility with OpenAI's interface while providing enhanced features and better cost control.
             </p>
+            <div className="flex justify-center space-x-4 mb-6">
+              <a
+                href="https://github.com/apocas/restai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors"
+              >
+                <Github className="mr-2 h-4 w-4" />
+                View on GitHub
+              </a>
+            </div>
             <div className="bg-gray-900 text-green-400 p-4 rounded-lg font-mono text-sm text-left max-w-2xl mx-auto">
               <div className="text-gray-500"># Simply change your endpoint</div>
               <div>curl https://api.restai.com/v1/chat/completions \</div>
